@@ -1,31 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="m-0 p-0 h-full box-border">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>Skilled - Landing Page</title>
   <!-- ======================================= -->
   <!-- =====         GOOGLE FONTS         ==== -->
   <!-- ======================================= -->
-
-
-
-  <!-- =============================== -->
-  <!-- =====       STYLES        ===== -->
-  <!-- =============================== -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-['Plus_Jakarta_Sans'] text-[18px] leading-7 text-[#83869A] font-normal">
+  <header class="w-[1150px] px-[20px] mx-auto flex items-center justify-between py-[38px]">
+    <a class="hover:opacity-80 active:opacity-60" href="index.html"><img src="img/skilled.svg" alt="Skilled"></a>
 
+    <a class="text-white rounded-[28px] no-underline px-[32px] py-[14px] bg-[#13183F] hover:bg-[#666CA3]" href="#">Get Started</a>
+  </header>
+  <!-- ************************ -->
+  <!-- ***   MAIN SECTION   *** -->
+  <!-- ************************ -->
+  <main class="main-content">
+    <div class="pt-[134px] pb-[226px] w-[1150px] px-[20px] mx-auto bg[url('img/group.svg')]">
+      <div class="w-[457px]">
+        <h1 class="text-[#13183F] font-extrabold text-[56px] leading-normal mb-[29px]">Maximize skill,
+          minimize budget</h1>
 
+          <p class="mb-10">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
-<!-- ************************ -->
-<!-- ***   MAIN SECTION   *** -->
-<!-- ************************ -->
-<main class="main-content"></main>
+          <a href="#" class="py-[17px] px-[31px] rounded-[31.5px] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] text-white hover:opacity-80 active:opacity-60">Get Started</a>
+        </div>
+      </div>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+      <section class="">
+        <div class="grid grid-cols-3 gap-x-[30px] gap-y-20 pt-[24px] pb-[140px] w-[1150px] mx-auto">
+          <!-- * 1 * -->
+          <div class="bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] w-[350px] pt-16 px-8 pb-10 rounded-[15px] bg-gradient-to-b-[]"><p class=" text-[32px] leading-10 font-extrabold text-white">Check out our most popular courses!</p></div>
+          <!-- * 2 * -->
+          <div class="w-[350px] pt-16 px-8 pb-10 bg-white rounded-[15px] relative">
+            <img class="absolute top-[-28px]" src="img/animation.svg">
+
+            <h3 class="text-[#13183F] font-extrabold text-[24px] leading-normal mb-6">Animation</h3>
+
+            <p class="mb-6">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+
+            <a class="text-[#F74780] font-bold hover:opacity-80 active:opacity-60" href="#">Get Started</a>
+          </div>
+          <!-- * 3 * -->
+          <div class="w-[350px] pt-16 px-8 pb-10 bg-white rounded-[15px] relative">
+            <img class="absolute top-[-28px]" src="img/design.svg">
+
+            <h3 class="text-[#13183F] font-extrabold text-[24px] leading-normal mb-6">Design</h3>
+
+            <p class="mb-6">Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+
+            <a class="text-[#F74780] font-bold hover:opacity-80 active:opacity-60" href="#">Get Started</a>
+          </div>
+
+          <!-- * 4 * -->
+          <div class="w-[350px] pt-16 px-8 pb-10 bg-white rounded-[15px] relative">
+            <img class="absolute top-[-28px]" src="img/photography.svg">
+
+            <h3 class="text-[#13183F] font-extrabold text-[24px] leading-normal mb-6">Photography</h3>
+
+            <p class="mb-6">Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
+
+            <a class="text-[#F74780] font-bold hover:opacity-80 active:opacity-60" href="#">Get Started</a>
+          </div>
+          <!-- * 5 * -->
+          <div class="w-[350px] pt-16 px-8 pb-10 bg-white rounded-[15px] relative">
+            <img class="absolute top-[-28px]" src="img/crypto.svg">
+
+            <h3 class="text-[#13183F] font-extrabold text-[24px] leading-normal mb-6">Crypto</h3>
+
+            <p class="mb-6">All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+
+            <a class="text-[#F74780] font-bold hover:opacity-80 active:opacity-60" href="#">Get Started</a>
+          </div>
+          <!-- * 6 * -->
+          <div class="w-[350px] pt-16 px-8 pb-10 bg-white rounded-[15px] relative">
+            <img class="absolute top-[-28px]" src="img/business.svg">
+
+            <h3 class="text-[#13183F] font-extrabold text-[24px] leading-normal mb-6">Business</h3>
+
+            <p class="mb-6">A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+
+            <a class="text-[#F74780] font-bold hover:opacity-80 active:opacity-60" href="#">Get Started</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#13183F]">
+      <div class="py-8 w-[1150px] mx-auto flex items-center justify-between">
+        <a class="hover:opacity-80 active:opacity-60" href="index.html"><img src="img/skilled-w.svg" alt="Skilled"></a>
+
+        <a class="text-white rounded-[28px] no-underline px-[32px] py-[14px] bg-[#13183F] hover:bg-[#666CA3]" href="#">Get Started</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+  </html>
